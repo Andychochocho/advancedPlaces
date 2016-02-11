@@ -20,26 +20,26 @@ namespace Places.Objects
     {
       return _cityName;
     }
-    public void SetCities(string newCityName)
-    {
-      newCityName = _cityName;
-    }
+    // public void SetCities(string newCityName)
+    // {
+    //   newCityName = _cityName;
+    // }
     public int GetDays()
     {
       return _dayStayed;
     }
-    public void SetDays(int newDays)
-    {
-      newDays = _dayStayed;
-    }
+    // public void SetDays(int newDays)
+    // {
+    //   newDays = _dayStayed;
+    // }
     public string GetPicture()
     {
       return _pictureLink;
     }
-    public void SetPicture(string newPicture)
-    {
-      newPicture = _pictureLink;
-    }
+    // public void SetPicture(string newPicture)
+    // {
+    //   newPicture = _pictureLink;
+    // }
 
     public int GetId()
     {

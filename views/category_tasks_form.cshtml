@@ -1,6 +1,7 @@
-<h1>Please add the cities you visited</h1>
-<form action="viewPlaces" method="post">
-<label for="Places">Name of city you would like to add: </label>
+<h1>Please add the cities you visited during your @Model["category"].GetName() Trip</h1>
+<form action="/places" method="post">
+<input id='category-id' name='category-id' type='hidden' value='@Model["category"].GetId()'>
+<label for="placeCity">Name of city you would like to add: </label>
 <input type="text" name="placeCity">
   <br><br>
 <label for="StayedDays">How many days did you stay at said location: </label>
